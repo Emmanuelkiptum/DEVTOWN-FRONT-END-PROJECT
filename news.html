@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="news.css" type="text/css" />
+    <title>News</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+      <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+
+
+<link rel="stylesheet" href="styless.css">
+<link rel="stylesheet" href="link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+
+<style>
+      
+    p{
+        font-size: 18px;
+        color: grey;
+    }
+    h6{
+        color: yellowgreen;
+        font-size: 22px;
+        font-weight: bold;
+    }
+    h1{
+      color: beige;
+    }
+    .text{
+      font-size: 25px;
+      font-weight: bold;
+      color: white;
+    }
+</style>
+
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="logos.png"></a>
+            <div class="nav-links" id="navLinks">
+              <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="homepage.html">HOME</a></li>
+                    <li><a class="active" href="news.html">ENVENTS & NEWS</a></li>
+                    <li><a href="login.html">REGISTRATION</a></li>
+                    <li><a href="contact_us.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars"  onclick="showMenu()"></i>
+        </nav>
+        <br>
+        <br>
+        <br>
+        <br>
+          <center> <h1> DAILY NEWS </h1> </center>
+          <br>
+          <br>
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="6.jpg" style="width:100%">
+                <div class="text">Tech Hub Members after a scratch programming meeting</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="1.jpeg" style="width:100%">
+                <div class="text">Members at the Konza city water treatment facilities</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="3.jpeg" style="width:100%">
+                <div class="text">Members at a tour in Konza City</div>
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+        <script src="script.js"></script>
+
+
+ <!--blog-section============================================================================-->
+ <section id="blog">
+    <!--blog-heading--------------->
+    <div class="blog-heading">
+  
+      <h3>RECENT EVENTS</h3>
+    </div>
+
+
+    <!--container---------------->
+    <div class="blog-container">
+
+      <!--box-1------------->
+      <div class="blog-box">
+
+        <!--img---->
+        <div class="blog-img">
+          <img alt="blog" src="6.jpg">
+        </div>
+        <!--text--->
+        <div class="blog-text">
+          <span>14 April 2022 / Scratch Programming</span>
+          <a href="#" class="blog-title">What Has Happened to All of the Web Design Ideas?</a>
+          <p>Scratch is a high-level block-based visual programming language and website aimed primarily at children as an educational tool for programming,</p>
+          <a href="#">Read More</a>
+        </div>
+
+      </div>
+
+
+
+
+      <!--box-2------------->
+      <div class="blog-box">
+
+        <!--img---->
+        <div class="blog-img">
+          <img alt="blog" src="1.jpeg">
+        </div>
+        <!--text--->
+        <div class="blog-text">
+          <span>19 July 2022 / Konza water treatment</span>
+          <a href="#" class="blog-title">The Engineering at Konza</a>
+          <p>Water treatment is any process that improves the quality of water to make it appropriate for a specific end-use. The end use may be drinking, industrial water supply, irrigation, river flow maintenance, water recreation or many other uses, including being safely returned to the environment.</p>
+          <a href="#">Read More</a>
+        </div>
+
+      </div>
+
+
+
+
+      <!--box-3------------->
+      <div class="blog-box">
+
+        <!--img---->
+        <div class="blog-img">
+          <img alt="blog" src="3.jpeg">
+        </div>
+        <!--text--->
+        <div class="blog-text">
+          <span>19 July 2022 / Konza City</span>
+          <a href="#" class="blog-title">Konza City Tour</a>
+          <p>Konza (Konza Technopolis ) is a key flagship project of Kenya’s Vision 2030 economic development portfolio. Konza will be a world-class city, powered by a thriving information, communications and technology (ICT) sector, superior reliable infrastructure and business friendly governance systems.</p>
+          <a href="#">Read More</a>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!--blog-section============================================================================-->
+ <section id="blog">
+    <!--blog-heading--------------->
+    <div class="blog-heading">
+  
+      <h3>UPCOMMING EVENTS</h3>
+    </div>
+
+
+    <!--container---------------->
+    <div class="blog-container">
+
+      <!--box-1------------->
+      <div class="blog-box">
+
+        <!--img---->
+        <div class="blog-img">
+          <img alt="blog" src="umma15.png">
+        </div>
+        <!--text--->
+        <div class="blog-text">
+          <span>14 April 2023 /Visit to Makerere University </span>
+          <a href="#" class="blog-title">Taking a visit to Makerere University institute of information and technology?</a>
+          <p>Having a visit to Makerere University is the next upcoming tour event scheduled on 14th april next year. The purpose it to have a start collaboration and association between ours students and Makerere students.</p>
+          <a href="#">Read More</a>
+        </div>
+
+      </div>
+
+
+
+
+      <!--box-2------------->
+      <div class="blog-box">
+
+        <!--img---->
+        <div class="blog-img">
+          <img alt="blog" src="umma16.png">
+        </div>
+        <!--text--->
+        <div class="blog-text">
+          <span>19 november 2022 / Next Trip to Konza Smart City</span>
+          <a href="#" class="blog-title">The Engineering at Konza</a>
+          <p>Next upcomming event will be again having a visit to Konza for the purpose of technology and water treatmeants. Water treatment is any process that improves the quality of water to make it appropriate for a specific end-use. The end use may be drinking, industrial water supply, irrigation, river flow maintenance, water recreation or many other uses, including being safely returned to the environment.</p>
+          <a href="#">Read More</a>
+        </div>
+
+      </div>
+
+
+
+
+      <!--box-3------------->
+      <div class="blog-box">
+
+        <!--img---->
+        <div class="blog-img">
+          <img alt="blog" src="umma19.png">
+        </div>
+        <!--text--->
+        <div class="blog-text">
+          <span>1 January 2023 / Visit to JKIA Airport</span>
+          <a href="#" class="blog-title">Jommo Kenyatta International Airport</a>
+          <p>JKIA will be better if we can have a visit there to know their innovation on flights, how passengers book there flights and make payments online. also how the IT department can navigate the flight from the departer to its destination.</p>
+          <a href="#">Read More</a>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <footer class="container-fluid bg-grey py-5">
+    <div class="container">
+       <div class="row">
+          <div class="col-md-6">
+             <div class="row">
+                <div class="col-md-6 ">
+                   <div class="logo-part">
+                      <img src="https://i.ibb.co/sHZz13b/logo.png" class="w-50 logo-footer" >
+                      <p>Weckliffe- chairman-2022 for UMMA TECH HUB</p>
+                      <p>The Tech Hub has started 1 year ago with the goal to introduce innovation and creativity</p>
+                   </div>
+                </div>
+                <div class="col-md-6 px-4">
+                   <h6> About Company</h6>
+                   <p>For more info you can follow as on</p>
+                   <a href="login.html" class="btn-footer"> More Info </a><br>
+                   <a href="contact_us.html" class="btn-footer"> Contact Us</a>
+                </div>
+             </div>
+          </div>
+          <div class="col-md-6">
+             <div class="row">
+                <div  class="col-md-6 px-4">
+                   <h6> Help us</h6>
+                   <div class="row ">
+                      <div class="col-md-6">
+                         <ul>
+                            <li> <a href="homepage.html"> Home</a> </li>
+                            <li> <a href=" "> News</a> </li>
+                            <li> <a href="login.html"> Registration</a> </li>
+                            <li> <a href="contact_us.html"> Contact Us</a> </li>
+                            <li> <a href=" "> Services</a> </li>
+                         </ul>
+                      </div>
+                   </div>
+                </div>
+                <div class="col-md-6 ">
+                   <h6> Social Media</h6>
+                   <div class="social">
+                      <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                      <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                   </div>
+                   <form class="form-footer my-3">
+                      <input type="text"  placeholder="search here...." name="search">
+                      <input type="button" value="Go" >
+                   </form>
+                   <p>Umma Tech Hub For Quality Innovation</p>
+                </div>
+             </div>
+          </div>
+       </div>
+    </div>
+    </footer>
+  
+
+</body>
+</html>
